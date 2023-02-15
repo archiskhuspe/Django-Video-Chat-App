@@ -1,1 +1,19 @@
-<h1>Lobby</h1>
+{% extends "base/main.html" %}
+{% load static %}
+{% block content %}
+
+<main>
+    <section id="form-container">
+        <img id="logo" src="{%static 'images/chat-icon.png' %}" alt="app-logo">
+        <div>
+            <h1>
+                Welcome to Django Chat!
+            </h1>
+            <p>A group video-calling application just for you!</p>
+        </div>
+    </section>
+
+
+</main>
+
+{% endblock content %}

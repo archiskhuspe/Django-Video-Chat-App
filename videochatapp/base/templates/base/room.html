@@ -1,1 +1,16 @@
+{% extends "base/main.html" %}
+
+{% block content %}
 <h1>Room</h1>
+
+<main>
+    <section id="room-name-wrapper">
+        <p>Room Name: <span id="room-name"></span></p>
+    </section>
+
+    <section id="video-streams">
+        <div class="video-container" id="user-container-1"></div>
+    </section>
+</main>
+
+{% endblock content %}
